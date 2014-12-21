@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{777aef29-7bd4-43b9-8d9b-28f305fcabec}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+    <UseIISExpress>true</UseIISExpress>
+    <DjangoSettingsModule>pv.settings</DjangoSettingsModule>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="manage.py" />
+    <Compile Include="pivotviewer\admin.py" />
+    <Compile Include="pivotviewer\models.py" />
+    <Compile Include="pivotviewer\tests.py" />
+    <Compile Include="pivotviewer\urls.py" />
+    <Compile Include="pivotviewer\views.py" />
+    <Compile Include="pivotviewer\__init__.py" />
+    <Compile Include="pv\settings.py" />
+    <Compile Include="pv\urls.py" />
+    <Compile Include="pv\wsgi.py" />
+    <Compile Include="pv\__init__.py" />
+    <Compile Include="pv\project_list.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="lib\colResizable\colResizable-1.3.min.js" />
+    <Content Include="lib\colResizable\GPL-LICENSE.txt" />
+    <Content Include="lib\colResizable\MIT-LICENSE.txt" />
+    <Content Include="lib\easing\easing.js" />
+    <Content Include="lib\jquery-ui\AUTHORS.txt" />
+    <Content Include="lib\jquery-ui\jquery-ui-1.10.4.custom.min.js" />
+    <Content Include="lib\jquery-ui\MIT-LICENSE.txt" />
+    <Content Include="lib\jquery.mousewheel\jquery.mousewheel.js" />
+    <Content Include="lib\jquery.mousewheel\jquery.mousewheel.min.js" />
+    <Content Include="lib\jquery.mousewheel\LICENSE.txt" />
+    <Content Include="lib\jquery.tooltipster\jquery.tooltipster.min.js" />
+    <Content Include="lib\jquery.tooltipster\tooltipster.css" />
+    <Content Include="lib\jquery\jquery-1.11.0.min.js" />
+    <Content Include="lib\leaflet\images\Blue.png" />
+    <Content Include="lib\leaflet\images\BlueDot.png" />
+    <Content Include="lib\leaflet\images\Cyan.png" />
+    <Content Include="lib\leaflet\images\CyanDot.png" />
+    <Content Include="lib\leaflet\images\DarkGreen.png" />
+    <Content Include="lib\leaflet\images\DarkGreenDot.png" />
+    <Content Include="lib\leaflet\images\Gold.png" />
+    <Content Include="lib\leaflet\images\GoldDot.png" />
+    <Content Include="lib\leaflet\images\green-icon.png" />
+    <Content Include="lib\leaflet\images\Green.png" />
+    <Content Include="lib\leaflet\images\GreenDot.png" />
+    <Content Include="lib\leaflet\images\Lime.png" />
+    <Content Include="lib\leaflet\images\LimeDot.png" />
+    <Content Include="lib\leaflet\images\Magenta.png" />
+    <Content Include="lib\leaflet\images\MagentaDot.png" />
+    <Content Include="lib\leaflet\images\marker-icon.png" />
+    <Content Include="lib\leaflet\images\marker-shadow.png" />
+    <Content Include="lib\leaflet\images\Orange.png" />
+    <Content Include="lib\leaflet\images\OrangeDot.png" />
+    <Content Include="lib\leaflet\images\Pink.png" />
+    <Content Include="lib\leaflet\images\PinkDot.png" />
+    <Content Include="lib\leaflet\images\Purple.png" />
+    <Content Include="lib\leaflet\images\PurpleDot.png" />
+    <Content Include="lib\leaflet\images\Red.png" />
+    <Content Include="lib\leaflet\images\RedDot.png" />
+    <Content Include="lib\leaflet\images\Sky.png" />
+    <Content Include="lib\leaflet\images\SkyDot.png" />
+    <Content Include="lib\leaflet\images\Yellow.png" />
+    <Content Include="lib\leaflet\images\YellowDot.png" />
+    <Content Include="lib\leaflet\leaflet-0.6.4.js" />
+    <Content Include="lib\leaflet\leaflet.css" />
+    <Content Include="lib\leaflet\leaflet.ie.css" />
+    <Content Include="lib\leaflet\Pushpins.zip" />
+    <Content Include="lib\modernizr\modernizr.custom.93916.js" />
+    <Content Include="lib\purl-master\LICENSE" />
+    <Content Include="lib\purl-master\purl.js" />
+    <Content Include="lib\purl-master\README.md" />
+    <Content Include="lib\simile-timeline\timeline_ajax\content\history.html" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\bubble-arrow-point-down.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\bubble-arrow-point-left.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\bubble-arrow-point-right.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\bubble-arrow-point-up.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\bubble-bottom-left.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\bubble-bottom-right.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\bubble-bottom.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\bubble-left.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\bubble-right.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\bubble-top-left.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\bubble-top-right.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\bubble-top.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\close-button.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\copy.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\message-bottom-left.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\message-bottom-right.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\message-left.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\message-right.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\message-top-left.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\images\message-top-right.png" />
+    <Content Include="lib\simile-timeline\timeline_ajax\scripts\signal.js" />
+    <Content Include="lib\simile-timeline\timeline_ajax\simile-ajax-api.js" />
+    <Content Include="lib\simile-timeline\timeline_ajax\simile-ajax-bundle.js" />
+    <Content Include="lib\simile-timeline\timeline_ajax\styles\graphics-ie6.css" />
+    <Content Include="lib\simile-timeline\timeline_ajax\styles\graphics.css" />
+    <Content Include="lib\simile-timeline\timeline_js\.grep.out.swp" />
+    <Content Include="lib\simile-timeline\timeline_js\images\blue-circle.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\bubble-bottom-arrow.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\bubble-bottom-left.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\bubble-bottom-right.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\bubble-bottom.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\bubble-left-arrow.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\bubble-left.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\bubble-right-arrow.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\bubble-right.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\bubble-top-arrow.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\bubble-top-left.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\bubble-top-right.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\bubble-top.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\close-button.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\copyright-vertical.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\copyright.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\dark-blue-circle.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\dark-green-circle.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\dark-red-circle.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\dull-blue-circle.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\dull-green-circle.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\dull-red-circle.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\gray-circle.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\green-circle.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\message-bottom-left.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\message-bottom-right.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\message-left.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\message-right.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\message-top-left.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\message-top-right.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\progress-running.gif" />
+    <Content Include="lib\simile-timeline\timeline_js\images\red-circle.png" />
+    <Content Include="lib\simile-timeline\timeline_js\images\top-bubble.png" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\cs\labellers.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\cs\timeline.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\de\labellers.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\de\timeline.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\en\labellers.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\en\timeline.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\es\labellers.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\es\timeline.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\fr\labellers.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\fr\timeline.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\it\labellers.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\it\timeline.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\nl\labellers.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\nl\timeline.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\ru\labellers.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\ru\timeline.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\se\labellers.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\se\timeline.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\tr\labellers.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\tr\timeline.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\vi\labellers.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\vi\timeline.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\zh\labellers.js" />
+    <Content Include="lib\simile-timeline\timeline_js\scripts\l10n\zh\timeline.js" />
+    <Content Include="lib\simile-timeline\timeline_js\timeline-api.js" />
+    <Content Include="lib\simile-timeline\timeline_js\timeline-bundle.css" />
+    <Content Include="lib\simile-timeline\timeline_js\timeline-bundle.js" />
+    <Content Include="lib\wicket\wicket-arcgis.min.js" />
+    <Content Include="lib\wicket\wicket-gmap3.min.js" />
+    <Content Include="lib\wicket\wicket-leaflet.min.js" />
+    <Content Include="lib\wicket\wicket.min.js" />
+    <Content Include="scripts\_references.js" />
+    <Content Include="src\collectionloader.js" />
+    <Content Include="src\localcsvloader.js" />
+    <Content Include="src\jsonloader.js" />
+    <Content Include="src\localcxmlloader.js" />
+    <Content Include="src\models.js" />
+    <Content Include="src\namespaces.js" />
+    <Content Include="src\pivotviewer.js" />
+    <Content Include="src\pubsub.js" />
+    <Content Include="src\utils.js" />
+    <Content Include="src\csvloader.js" />
+    <Content Include="src\views\dataview.js" />
+    <Content Include="src\views\deepzoom.js" />
+    <Content Include="src\views\exportview.js" />
+    <Content Include="src\views\graphview.js" />
+    <Content Include="src\views\gridview.js" />
+    <Content Include="src\views\iimagecontroller.js" />
+    <Content Include="src\views\ipivotviewerview.js" />
+    <Content Include="src\views\LoadImageSetHelper.js" />
+    <Content Include="src\views\mapview.js" />
+    <Content Include="src\views\mapview2.js" />
+    <Content Include="src\views\simpleimage.js" />
+    <Content Include="src\views\tableview.js" />
+    <Content Include="src\views\tilebasedview.js" />
+    <Content Include="src\views\tilecontroller.js" />
+    <Content Include="src\views\timeview.js" />
+    <Content Include="style\pivotviewer.css" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lib\" />
+    <Folder Include="lib\colResizable\" />
+    <Folder Include="lib\easing\" />
+    <Folder Include="lib\jquery-ui\" />
+    <Folder Include="lib\jquery.mousewheel\" />
+    <Folder Include="lib\jquery.tooltipster\" />
+    <Folder Include="lib\jquery\" />
+    <Folder Include="lib\leaflet\" />
+    <Folder Include="lib\leaflet\images\" />
+    <Folder Include="lib\modernizr\" />
+    <Folder Include="lib\purl-master\" />
+    <Folder Include="lib\simile-timeline\" />
+    <Folder Include="lib\simile-timeline\timeline_ajax\" />
+    <Folder Include="lib\simile-timeline\timeline_ajax\content\" />
+    <Folder Include="lib\simile-timeline\timeline_ajax\images\" />
+    <Folder Include="lib\simile-timeline\timeline_ajax\scripts\" />
+    <Folder Include="lib\simile-timeline\timeline_ajax\styles\" />
+    <Folder Include="lib\simile-timeline\timeline_js\" />
+    <Folder Include="lib\simile-timeline\timeline_js\images\" />
+    <Folder Include="lib\simile-timeline\timeline_js\scripts\" />
+    <Folder Include="lib\simile-timeline\timeline_js\scripts\l10n\" />
+    <Folder Include="lib\simile-timeline\timeline_js\scripts\l10n\cs\" />
+    <Folder Include="lib\simile-timeline\timeline_js\scripts\l10n\de\" />
+    <Folder Include="lib\simile-timeline\timeline_js\scripts\l10n\en\" />
+    <Folder Include="lib\simile-timeline\timeline_js\scripts\l10n\es\" />
+    <Folder Include="lib\simile-timeline\timeline_js\scripts\l10n\fr\" />
+    <Folder Include="lib\simile-timeline\timeline_js\scripts\l10n\it\" />
+    <Folder Include="lib\simile-timeline\timeline_js\scripts\l10n\nl\" />
+    <Folder Include="lib\simile-timeline\timeline_js\scripts\l10n\ru\" />
+    <Folder Include="lib\simile-timeline\timeline_js\scripts\l10n\se\" />
+    <Folder Include="lib\simile-timeline\timeline_js\scripts\l10n\tr\" />
+    <Folder Include="lib\simile-timeline\timeline_js\scripts\l10n\vi\" />
+    <Folder Include="lib\simile-timeline\timeline_js\scripts\l10n\zh\" />
+    <Folder Include="lib\wicket\" />
+    <Folder Include="scripts\" />
+    <Folder Include="pivotviewer\" />
+    <Folder Include="pv" />
+    <Folder Include="src\" />
+    <Folder Include="src\views\" />
+    <Folder Include="style\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55342/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>True</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

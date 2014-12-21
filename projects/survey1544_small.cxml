@@ -1,0 +1,2640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" SchemaVersion="1.0" Name="EarthCube stakeholder Alignment Survey" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="PRIMARY DISCIPLINE" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Discipline if not listed" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Specific area of EXPERTISE" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Years of experience" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="National affiliation" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Institutional affiliation" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Gender" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="FAMILIARITY with EarthCube" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Participated in CHARRETTE" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Participated VIRTUALLY in charrette" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Seen first round of SURVEYS" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How IMPORTANT atmospheric/space weather data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How EASY atmospheric/space weather data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How IMPORTANT climate data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How EASY climate data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How IMPORTANT oceanographic data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How EASY oceanographic data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How IMPORTANT geophysical data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How EASY geophysical data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How IMPORTANT geologic data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How EASY geologic data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How IMPORTANT critical zone data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How EASY critical zone data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How IMPORTANT hydrologic data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How EASY hydrologic data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How IMPORTANT multiple datasets in your field" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How EASY multiple datasets in your field" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How IMPORTANT multiple datasets span different fields" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How EASY multiple datasets span different fields" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Suite of TOOLS ADEQUATE for research and education" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Are you using data from multiple disciplines" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Are you accessing data other than your own" Type="Link" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Substantial UNRESOLVED issues federal government repositories" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Substantial UNRESOLVED issues data held by investigators" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Substantial UNRESOLVED issues attribution/authorship" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="High degree of COOPERATION in sharing data among geoscientists" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="High degree COOPERATION in sharing software by cyber for geo" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Great deal of DUPLICATION in software for geo" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="SUFFICIENT COMMUNICATION between geo and cyber" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Sufficient END-USER KNOWLEDGE and training" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Is the focus in the geosciences primarily Individual or collective" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="ARTICLES published in the past five years" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="INTERDISCIPLINARY articles in the past five years" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Articles in what other disciplines?" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Funded PROJECTS in the past 5 years" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="INTERDISCIPLINARY funded projects in the past 5 years" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Projects in what other disciplines?" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="RESOURCES made available in the past 5 years" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Sharing data will ADVANCE YOUR CAREER" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="I TRUST QUALITY of data shared by others" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="I contact authors if unfamiliar data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="I find author papers  if unfamiliar data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="I search for previous applications  if unfamiliar data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="I post questions online  if unfamiliar data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="I consult with colleagues  if unfamiliar data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="I never use data from others" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Your EMPLOYER value cross discipinary sharing of data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Your COLLEAGUES value cross disciplinary sharing of data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Balance between COOPERATION and COMPETITION in your field" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How should EarthCube balance education and research" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC will increase my PRODUCTIVITY in 5-7 years" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC will provide me EXPANDED RESEARCH opportunities in 5-7 years" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC will provide EXPANDED EDUCATIONAL TOOLS in 5-7 years" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC will provide me EXPANDED INTEGRATION CAPABILITIES in 5-7 years" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC should establish GUIDELINES for accessing, sharing, and disseminating data" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC should utilize formal international STANDARDS" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC should encourage formal STANDARDS if dont exist" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="How should EC balance CYBERSECURITY and ease of access" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC should establish guidelines for ANALYSIS tools, methods, and/or models" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC should establish guidelines for VISUALIZATION tools" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC should incorporate COMMERCIAL applications" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC should BENEFIT commercial applications" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC should TAKE INTO ACCOUNT commercial products or applications" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC will TRANSFORM geoscience RESEARCH" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC will TRANSFORM geoscience EDUCATION" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC is INCLUSIVE in the way it operates" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC should be GRASSROOTS, community-driven" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="NSF should play a major role in EC operations" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Balance between COMMUNITY-ELECTED and NSF-selected leaders" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="No CORE group of EarthCube leaders is needed" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC should enable INTER-AGENCY cyber coordination" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC should enable INTERNATIONAL cyber coordination" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="I am comfortable using VIRTUAL/on-line technology" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Periodic FACE-TO-FACE meetings are essential" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="My EMPLOYER will value and reward my EarthCube efforts" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="My EMPLOYER will see EarthCube as integral to my job" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="My EC efforts will be valued by COLLEAGUES" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Motivated for EC to advance research" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Motivated for EC to advance teaching" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Motivated for EC for networking opportunities" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Motivated for EC for grant proposals" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Motivated for EC for new scientific advances" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Motivated for EC to make geo accessible to public" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Motivated for EC to inform policy" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Motivated for EC as service to field/profession" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="If not involved in EC" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC to advance research - ranking" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC to advance teaching - ranking" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC for networking opportunities - ranking" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC for grant proposals - ranking" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC for new scientific advances - ranking" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC to make geo accessible to public - ranking" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC to inform policy - ranking" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC as service to field/profession - ranking" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="EC will be one of TOP THREE professional commitments in next 3-5 years" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="MY PRIMARY ROLE/EXPERTISE" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Other primary roles/expertise" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="My SECONDARY role/expertise" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Other secondary roles/expertise" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Atmospheric and Space Weather scientists" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Oceanographers" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Geologists" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Geophysicists" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Hydrologists" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Critical zone scientists" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Climate scientists" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Biologists and Ecosystems scientists" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Geographers" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Computer and Cyber scientists" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Social scientists" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Other scientists" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Data managers" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With High performance computing experts" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Software engineers" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With User support personnel" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With K-12 educators" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Designers/developers of geoscience instrumentation" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Environmental resource managers" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="With Other experts" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="Marital Status" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+    <FacetCategory Name="IMPACT of parenting or elder care" Type="String" p:IsFilterVisible="true" p:IsWordWheelVisible="true" p:IsMetaDataVisible="true" />
+  </FacetCategories>
+  <Items ImgBase="survey1544_files\nhhel2gk.nx1.xml">
+    <Item Id="0" Img="#0" Name="Atmospheric or Space Weather scientist" Href="#">
+      <Facets>
+        <Facet Name="PRIMARY DISCIPLINE">
+          <String Value="3 Both" />
+        </Facet>
+        <Facet Name="Specific area of EXPERTISE">
+          <String Value="Meteorology, NWP" />
+        </Facet>
+        <Facet Name="Years of experience">
+          <String Value="4: Over 20 years" />
+        </Facet>
+        <Facet Name="National affiliation">
+          <String Value="Non-US" />
+        </Facet>
+        <Facet Name="Institutional affiliation">
+          <String Value="University or 4-year College" />
+        </Facet>
+        <Facet Name="Gender">
+          <String Value="Male" />
+        </Facet>
+        <Facet Name="FAMILIARITY with EarthCube">
+          <String Value="1 First I have heard of EC" />
+        </Facet>
+        <Facet Name="How IMPORTANT atmospheric/space weather data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY atmospheric/space weather data">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="How IMPORTANT climate data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How EASY climate data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geophysical data">
+          <String Value="2 Low importance (3-4)" />
+        </Facet>
+        <Facet Name="How EASY geophysical data">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="How IMPORTANT critical zone data">
+          <String Value="0 Not important (0)" />
+        </Facet>
+        <Facet Name="How IMPORTANT hydrologic data">
+          <String Value="0 Not important (0)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets in your field">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets in your field">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets span different fields">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Suite of TOOLS ADEQUATE for research and education">
+          <String Value="7 Adequate (14-15)" />
+        </Facet>
+        <Facet Name="Are you using data from multiple disciplines">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="Are you accessing data other than your own">
+          <Link Name="CISL Research Data Archive" />
+        </Facet>
+        <Facet Name="High degree of COOPERATION in sharing data among geoscientists">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="High degree COOPERATION in sharing software by cyber for geo">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Great deal of DUPLICATION in software for geo">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="SUFFICIENT COMMUNICATION between geo and cyber">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="Sufficient END-USER KNOWLEDGE and training">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="How should EarthCube balance education and research">
+          <String Value="5 Rather research than education (9-11)" />
+        </Facet>
+        <Facet Name="EC will increase my PRODUCTIVITY in 5-7 years">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED RESEARCH opportunities in 5-7 years">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC will provide EXPANDED EDUCATIONAL TOOLS in 5-7 years">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED INTEGRATION CAPABILITIES in 5-7 years">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC should establish GUIDELINES for accessing, sharing, and disseminating data">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="How should EC balance CYBERSECURITY and ease of access">
+          <String Value="2 Moderate protection (3-4)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for ANALYSIS tools, methods, and/or models">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for VISUALIZATION tools">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC should TAKE INTO ACCOUNT commercial products or applications">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience RESEARCH">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience EDUCATION">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Balance between COMMUNITY-ELECTED and NSF-selected leaders">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="No CORE group of EarthCube leaders is needed">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="I am comfortable using VIRTUAL/on-line technology">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Periodic FACE-TO-FACE meetings are essential">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will see EarthCube as integral to my job">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="My EC efforts will be valued by COLLEAGUES">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="If not involved in EC">
+          <String Value="Not interested" />
+        </Facet>
+        <Facet Name="EC will be one of TOP THREE professional commitments in next 3-5 years">
+          <String Value="1 Disagree (1-2)" />
+        </Facet>
+        <Facet Name="MY PRIMARY ROLE/EXPERTISE">
+          <String Value="Atmospheric or Space Weather scientist" />
+        </Facet>
+        <Facet Name="My SECONDARY role/expertise">
+          <String Value="Computer or CI scientist" />
+        </Facet>
+        <Facet Name="With Atmospheric and Space Weather scientists">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Oceanographers">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Geologists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Geophysicists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Hydrologists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Critical zone scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Climate scientists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Biologists and Ecosystems scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Geographers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Computer and Cyber scientists">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Social scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Other scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Data managers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With High performance computing experts">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Software engineers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With User support personnel">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With K-12 educators">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Designers/developers of geoscience instrumentation">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Environmental resource managers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Other experts">
+          <String Value="0 Never" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="1" Img="#1" Name="Critical zone scientist" Href="#">
+      <Facets>
+        <Facet Name="PRIMARY DISCIPLINE">
+          <String Value="3 Both" />
+        </Facet>
+        <Facet Name="Specific area of EXPERTISE">
+          <String Value="Geomorphology, sample-based data systems" />
+        </Facet>
+        <Facet Name="Years of experience">
+          <String Value="3: 11-20 years" />
+        </Facet>
+        <Facet Name="National affiliation">
+          <String Value="US" />
+        </Facet>
+        <Facet Name="Institutional affiliation">
+          <String Value="University or 4-year College" />
+        </Facet>
+        <Facet Name="Gender">
+          <String Value="Female" />
+        </Facet>
+        <Facet Name="FAMILIARITY with EarthCube">
+          <String Value="4 Discussing, but not part of EC communities" />
+        </Facet>
+        <Facet Name="How IMPORTANT climate data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT oceanographic data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How EASY oceanographic data">
+          <String Value="7 Easy (14-15)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geophysical data">
+          <String Value="6 Important (12-13)" />
+        </Facet>
+        <Facet Name="How EASY geophysical data">
+          <String Value="7 Easy (14-15)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geologic data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How EASY geologic data">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="How IMPORTANT critical zone data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY critical zone data">
+          <String Value="3 Rather difficult than not (5-7)" />
+        </Facet>
+        <Facet Name="How IMPORTANT hydrologic data">
+          <String Value="6 Important (12-13)" />
+        </Facet>
+        <Facet Name="How EASY hydrologic data">
+          <String Value="7 Easy (14-15)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets in your field">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets in your field">
+          <String Value="7 Easy (14-15)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets span different fields">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets span different fields">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="Suite of TOOLS ADEQUATE for research and education">
+          <String Value="5 Rather adequate than inadequate (9-11)" />
+        </Facet>
+        <Facet Name="Are you using data from multiple disciplines">
+          <String Value="yes, hydrologic, seismic" />
+        </Facet>
+        <Facet Name="Are you accessing data other than your own">
+          <Link Name="yes, Taiwan water agency websites, IRIS" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues federal government repositories">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues data held by investigators">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues attribution/authorship">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="High degree of COOPERATION in sharing data among geoscientists">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="High degree COOPERATION in sharing software by cyber for geo">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Great deal of DUPLICATION in software for geo">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="SUFFICIENT COMMUNICATION between geo and cyber">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="Sufficient END-USER KNOWLEDGE and training">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="How should EarthCube balance education and research">
+          <String Value="5 Rather research than education (9-11)" />
+        </Facet>
+        <Facet Name="EC will increase my PRODUCTIVITY in 5-7 years">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED RESEARCH opportunities in 5-7 years">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC will provide EXPANDED EDUCATIONAL TOOLS in 5-7 years">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED INTEGRATION CAPABILITIES in 5-7 years">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC should establish GUIDELINES for accessing, sharing, and disseminating data">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="How should EC balance CYBERSECURITY and ease of access">
+          <String Value="2 Moderate protection (3-4)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for ANALYSIS tools, methods, and/or models">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for VISUALIZATION tools">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC should TAKE INTO ACCOUNT commercial products or applications">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience RESEARCH">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience EDUCATION">
+          <String Value="7 Agree (14-15)" />
+        </Facet>
+        <Facet Name="EC is INCLUSIVE in the way it operates">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC should be GRASSROOTS, community-driven">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="NSF should play a major role in EC operations">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="Balance between COMMUNITY-ELECTED and NSF-selected leaders">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="No CORE group of EarthCube leaders is needed">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="I am comfortable using VIRTUAL/on-line technology">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="Periodic FACE-TO-FACE meetings are essential">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will value and reward my EarthCube efforts">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will see EarthCube as integral to my job">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="My EC efforts will be valued by COLLEAGUES">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="Motivated for EC to advance research">
+          <String Value="5 High motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC to advance teaching">
+          <String Value="2 Below average motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC for networking opportunities">
+          <String Value="3 Medium motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC for grant proposals">
+          <String Value="4 Above average motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC for new scientific advances">
+          <String Value="1 Low motivation" />
+        </Facet>
+        <Facet Name="EC will be one of TOP THREE professional commitments in next 3-5 years">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="MY PRIMARY ROLE/EXPERTISE">
+          <String Value="Critical zone scientist" />
+        </Facet>
+        <Facet Name="With Atmospheric and Space Weather scientists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Oceanographers">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Geologists">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With Geophysicists">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Hydrologists">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Critical zone scientists">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Climate scientists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Biologists and Ecosystems scientists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Geographers">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Computer and Cyber scientists">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Social scientists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Other scientists">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Data managers">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With High performance computing experts">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Software engineers">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With User support personnel">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With K-12 educators">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Designers/developers of geoscience instrumentation">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Environmental resource managers">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Other experts">
+          <String Value="2 Quarterly" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="2" Img="#2" Name="Geologist" Href="#">
+      <Facets>
+        <Facet Name="PRIMARY DISCIPLINE">
+          <String Value="1 Geoscience" />
+        </Facet>
+        <Facet Name="Specific area of EXPERTISE">
+          <String Value="geochronology" />
+        </Facet>
+        <Facet Name="Years of experience">
+          <String Value="4: Over 20 years" />
+        </Facet>
+        <Facet Name="National affiliation">
+          <String Value="US" />
+        </Facet>
+        <Facet Name="Institutional affiliation">
+          <String Value="University or 4-year College" />
+        </Facet>
+        <Facet Name="Gender">
+          <String Value="Male" />
+        </Facet>
+        <Facet Name="FAMILIARITY with EarthCube">
+          <String Value="2 Aware but no direct experience" />
+        </Facet>
+        <Facet Name="How IMPORTANT climate data">
+          <String Value="6 Important (12-13)" />
+        </Facet>
+        <Facet Name="How EASY climate data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT oceanographic data">
+          <String Value="7 Highly important (14-15)" />
+        </Facet>
+        <Facet Name="How EASY oceanographic data">
+          <String Value="6 Somewhat easy (12-13)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geophysical data">
+          <String Value="6 Important (12-13)" />
+        </Facet>
+        <Facet Name="How EASY geophysical data">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geologic data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY geologic data">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="How IMPORTANT critical zone data">
+          <String Value="6 Important (12-13)" />
+        </Facet>
+        <Facet Name="How EASY critical zone data">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="How IMPORTANT hydrologic data">
+          <String Value="6 Important (12-13)" />
+        </Facet>
+        <Facet Name="How EASY hydrologic data">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets in your field">
+          <String Value="7 Highly important (14-15)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets in your field">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets span different fields">
+          <String Value="7 Highly important (14-15)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets span different fields">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="Suite of TOOLS ADEQUATE for research and education">
+          <String Value="3 Rather inadequate than adequate (5-7)" />
+        </Facet>
+        <Facet Name="Are you accessing data other than your own">
+          <Link Name=" " />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues federal government repositories">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues data held by investigators">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues attribution/authorship">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="High degree of COOPERATION in sharing data among geoscientists">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="High degree COOPERATION in sharing software by cyber for geo">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Great deal of DUPLICATION in software for geo">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="SUFFICIENT COMMUNICATION between geo and cyber">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="Sufficient END-USER KNOWLEDGE and training">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="How should EarthCube balance education and research">
+          <String Value="1 Education (1-2)" />
+        </Facet>
+        <Facet Name="EC will increase my PRODUCTIVITY in 5-7 years">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED RESEARCH opportunities in 5-7 years">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC will provide EXPANDED EDUCATIONAL TOOLS in 5-7 years">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED INTEGRATION CAPABILITIES in 5-7 years">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC should establish GUIDELINES for accessing, sharing, and disseminating data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How should EC balance CYBERSECURITY and ease of access">
+          <String Value="5 Rather ease of access than protection (9-11)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for ANALYSIS tools, methods, and/or models">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for VISUALIZATION tools">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC should TAKE INTO ACCOUNT commercial products or applications">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience RESEARCH">
+          <String Value="1 Disagree (1-2)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience EDUCATION">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC is INCLUSIVE in the way it operates">
+          <String Value="1 Disagree (1-2)" />
+        </Facet>
+        <Facet Name="EC should be GRASSROOTS, community-driven">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="NSF should play a major role in EC operations">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="Balance between COMMUNITY-ELECTED and NSF-selected leaders">
+          <String Value="0 Strongly community-elected (0)" />
+        </Facet>
+        <Facet Name="No CORE group of EarthCube leaders is needed">
+          <String Value="7 Agree (14-15)" />
+        </Facet>
+        <Facet Name="I am comfortable using VIRTUAL/on-line technology">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Periodic FACE-TO-FACE meetings are essential">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will value and reward my EarthCube efforts">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will see EarthCube as integral to my job">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="My EC efforts will be valued by COLLEAGUES">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Motivated for EC to advance research">
+          <String Value="4 Above average motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC to advance teaching">
+          <String Value="5 High motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC for new scientific advances">
+          <String Value="2 Below average motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC to inform policy">
+          <String Value="3 Medium motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC as service to field/profession">
+          <String Value="1 Low motivation" />
+        </Facet>
+        <Facet Name="If not involved in EC">
+          <String Value="Not involved but open to becoming involved" />
+        </Facet>
+        <Facet Name="EC will be one of TOP THREE professional commitments in next 3-5 years">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="MY PRIMARY ROLE/EXPERTISE">
+          <String Value="Geologist" />
+        </Facet>
+        <Facet Name="With Atmospheric and Space Weather scientists">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Oceanographers">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With Geologists">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With Hydrologists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Critical zone scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Climate scientists">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Social scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Other scientists">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With Data managers">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With User support personnel">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Designers/developers of geoscience instrumentation">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Environmental resource managers">
+          <String Value="0 Never" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="3" Img="#3" Name="Other expert" Href="#">
+      <Facets>
+        <Facet Name="PRIMARY DISCIPLINE">
+          <String Value="1 Geoscience" />
+        </Facet>
+        <Facet Name="Specific area of EXPERTISE">
+          <String Value="Meteorology" />
+        </Facet>
+        <Facet Name="Years of experience">
+          <String Value="4: Over 20 years" />
+        </Facet>
+        <Facet Name="National affiliation">
+          <String Value="US" />
+        </Facet>
+        <Facet Name="Institutional affiliation">
+          <String Value="Other" />
+        </Facet>
+        <Facet Name="Gender">
+          <String Value="Male" />
+        </Facet>
+        <Facet Name="FAMILIARITY with EarthCube">
+          <String Value="2 Aware but no direct experience" />
+        </Facet>
+        <Facet Name="How IMPORTANT atmospheric/space weather data">
+          <String Value="3 Below average importance (5-7)" />
+        </Facet>
+        <Facet Name="How EASY atmospheric/space weather data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT climate data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY climate data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT oceanographic data">
+          <String Value="5 Above average importance (9-11)" />
+        </Facet>
+        <Facet Name="How EASY oceanographic data">
+          <String Value="3 Rather difficult than not (5-7)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geophysical data">
+          <String Value="2 Low importance (3-4)" />
+        </Facet>
+        <Facet Name="How EASY geophysical data">
+          <String Value="1 Difficult (1-2)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geologic data">
+          <String Value="1 Very low importance (1-2)" />
+        </Facet>
+        <Facet Name="How EASY geologic data">
+          <String Value="1 Difficult (1-2)" />
+        </Facet>
+        <Facet Name="How IMPORTANT critical zone data">
+          <String Value="1 Very low importance (1-2)" />
+        </Facet>
+        <Facet Name="How EASY critical zone data">
+          <String Value="1 Difficult (1-2)" />
+        </Facet>
+        <Facet Name="How IMPORTANT hydrologic data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY hydrologic data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets in your field">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets in your field">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets span different fields">
+          <String Value="6 Important (12-13)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets span different fields">
+          <String Value="1 Difficult (1-2)" />
+        </Facet>
+        <Facet Name="Suite of TOOLS ADEQUATE for research and education">
+          <String Value="5 Rather adequate than inadequate (9-11)" />
+        </Facet>
+        <Facet Name="Are you using data from multiple disciplines">
+          <String Value="Meteorology, Hydrology, and to a minor extent oceanographic and geological data" />
+        </Facet>
+        <Facet Name="Are you accessing data other than your own">
+          <Link Name="I use public domain data and data from private sources to create my reports for clients." />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues federal government repositories">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues data held by investigators">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues attribution/authorship">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="High degree of COOPERATION in sharing data among geoscientists">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="High degree COOPERATION in sharing software by cyber for geo">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="Great deal of DUPLICATION in software for geo">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="SUFFICIENT COMMUNICATION between geo and cyber">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Sufficient END-USER KNOWLEDGE and training">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="How should EarthCube balance education and research">
+          <String Value="5 Rather research than education (9-11)" />
+        </Facet>
+        <Facet Name="EC should establish GUIDELINES for accessing, sharing, and disseminating data">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="How should EC balance CYBERSECURITY and ease of access">
+          <String Value="5 Rather ease of access than protection (9-11)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for ANALYSIS tools, methods, and/or models">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for VISUALIZATION tools">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="EC should TAKE INTO ACCOUNT commercial products or applications">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience RESEARCH">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC should be GRASSROOTS, community-driven">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="NSF should play a major role in EC operations">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Balance between COMMUNITY-ELECTED and NSF-selected leaders">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="No CORE group of EarthCube leaders is needed">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="I am comfortable using VIRTUAL/on-line technology">
+          <String Value="7 Agree (14-15)" />
+        </Facet>
+        <Facet Name="Periodic FACE-TO-FACE meetings are essential">
+          <String Value="7 Agree (14-15)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will value and reward my EarthCube efforts">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will see EarthCube as integral to my job">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="My EC efforts will be valued by COLLEAGUES">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="If not involved in EC">
+          <String Value="Not involved but open to becoming involved" />
+        </Facet>
+        <Facet Name="EC will be one of TOP THREE professional commitments in next 3-5 years">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="MY PRIMARY ROLE/EXPERTISE">
+          <String Value="Other expert" />
+        </Facet>
+        <Facet Name="Other primary roles/expertise">
+          <String Value="Meteorology/Hydrology/Climate Consultant" />
+        </Facet>
+        <Facet Name="With Atmospheric and Space Weather scientists">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Oceanographers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Geologists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Geophysicists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Hydrologists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Critical zone scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Climate scientists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Biologists and Ecosystems scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Geographers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Computer and Cyber scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Social scientists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Other scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Data managers">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With High performance computing experts">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Software engineers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With User support personnel">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With K-12 educators">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Designers/developers of geoscience instrumentation">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Environmental resource managers">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Other experts">
+          <String Value="0 Never" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="4" Img="#4" Name="Atmospheric or Space Weather scientist" Href="#">
+      <Facets>
+        <Facet Name="PRIMARY DISCIPLINE">
+          <String Value="1 Geoscience" />
+        </Facet>
+        <Facet Name="Specific area of EXPERTISE">
+          <String Value="meteorology" />
+        </Facet>
+        <Facet Name="Years of experience">
+          <String Value="3: 11-20 years" />
+        </Facet>
+        <Facet Name="National affiliation">
+          <String Value="US" />
+        </Facet>
+        <Facet Name="Institutional affiliation">
+          <String Value="Other" />
+        </Facet>
+        <Facet Name="Gender">
+          <String Value="Male" />
+        </Facet>
+        <Facet Name="FAMILIARITY with EarthCube">
+          <String Value="1 First I have heard of EC" />
+        </Facet>
+        <Facet Name="How IMPORTANT atmospheric/space weather data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY atmospheric/space weather data">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="How IMPORTANT climate data">
+          <String Value="1 Very low importance (1-2)" />
+        </Facet>
+        <Facet Name="How IMPORTANT oceanographic data">
+          <String Value="5 Above average importance (9-11)" />
+        </Facet>
+        <Facet Name="How EASY oceanographic data">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geophysical data">
+          <String Value="6 Important (12-13)" />
+        </Facet>
+        <Facet Name="How EASY geophysical data">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geologic data">
+          <String Value="1 Very low importance (1-2)" />
+        </Facet>
+        <Facet Name="How IMPORTANT critical zone data">
+          <String Value="2 Low importance (3-4)" />
+        </Facet>
+        <Facet Name="How IMPORTANT hydrologic data">
+          <String Value="5 Above average importance (9-11)" />
+        </Facet>
+        <Facet Name="How EASY hydrologic data">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets in your field">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets in your field">
+          <String Value="6 Somewhat easy (12-13)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets span different fields">
+          <String Value="3 Below average importance (5-7)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets span different fields">
+          <String Value="3 Rather difficult than not (5-7)" />
+        </Facet>
+        <Facet Name="Suite of TOOLS ADEQUATE for research and education">
+          <String Value="5 Rather adequate than inadequate (9-11)" />
+        </Facet>
+        <Facet Name="Are you using data from multiple disciplines">
+          <String Value="geophysical , meteorological, oceanographical" />
+        </Facet>
+        <Facet Name="Are you accessing data other than your own">
+          <Link Name="yes, web archives, ftp  , web field project catalogs" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues federal government repositories">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues data held by investigators">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues attribution/authorship">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="High degree of COOPERATION in sharing data among geoscientists">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="High degree COOPERATION in sharing software by cyber for geo">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Great deal of DUPLICATION in software for geo">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="SUFFICIENT COMMUNICATION between geo and cyber">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="Sufficient END-USER KNOWLEDGE and training">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="How should EarthCube balance education and research">
+          <String Value="3 Rather education than research (5-7)" />
+        </Facet>
+        <Facet Name="EC will increase my PRODUCTIVITY in 5-7 years">
+          <String Value="1 Disagree (1-2)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED RESEARCH opportunities in 5-7 years">
+          <String Value="1 Disagree (1-2)" />
+        </Facet>
+        <Facet Name="EC will provide EXPANDED EDUCATIONAL TOOLS in 5-7 years">
+          <String Value="1 Disagree (1-2)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED INTEGRATION CAPABILITIES in 5-7 years">
+          <String Value="1 Disagree (1-2)" />
+        </Facet>
+        <Facet Name="EC should establish GUIDELINES for accessing, sharing, and disseminating data">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="How should EC balance CYBERSECURITY and ease of access">
+          <String Value="6 Moderate ease of access (12-13)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for ANALYSIS tools, methods, and/or models">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for VISUALIZATION tools">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="EC should TAKE INTO ACCOUNT commercial products or applications">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience RESEARCH">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience EDUCATION">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="EC is INCLUSIVE in the way it operates">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC should be GRASSROOTS, community-driven">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="NSF should play a major role in EC operations">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="Balance between COMMUNITY-ELECTED and NSF-selected leaders">
+          <String Value="3 Rather community-elected than NSF-selected (5-7)" />
+        </Facet>
+        <Facet Name="No CORE group of EarthCube leaders is needed">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="I am comfortable using VIRTUAL/on-line technology">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Periodic FACE-TO-FACE meetings are essential">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will value and reward my EarthCube efforts">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will see EarthCube as integral to my job">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="My EC efforts will be valued by COLLEAGUES">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="If not involved in EC">
+          <String Value="Not interested" />
+        </Facet>
+        <Facet Name="EC will be one of TOP THREE professional commitments in next 3-5 years">
+          <String Value="1 Disagree (1-2)" />
+        </Facet>
+        <Facet Name="MY PRIMARY ROLE/EXPERTISE">
+          <String Value="Atmospheric or Space Weather scientist" />
+        </Facet>
+        <Facet Name="With Atmospheric and Space Weather scientists">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With Oceanographers">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Geologists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Geophysicists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Hydrologists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Critical zone scientists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Climate scientists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Biologists and Ecosystems scientists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Geographers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Computer and Cyber scientists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Social scientists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Other scientists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Data managers">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With High performance computing experts">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Software engineers">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With User support personnel">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With K-12 educators">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Designers/developers of geoscience instrumentation">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Environmental resource managers">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Other experts">
+          <String Value="1 Annually" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="5" Img="#5" Name="Atmospheric or Space Weather scientist" Href="#">
+      <Facets>
+        <Facet Name="PRIMARY DISCIPLINE">
+          <String Value="1 Geoscience" />
+        </Facet>
+        <Facet Name="Specific area of EXPERTISE">
+          <String Value="Atmospheric Science" />
+        </Facet>
+        <Facet Name="Years of experience">
+          <String Value="3: 11-20 years" />
+        </Facet>
+        <Facet Name="National affiliation">
+          <String Value="US" />
+        </Facet>
+        <Facet Name="Institutional affiliation">
+          <String Value="University or 4-year College" />
+        </Facet>
+        <Facet Name="Gender">
+          <String Value="Male" />
+        </Facet>
+        <Facet Name="FAMILIARITY with EarthCube">
+          <String Value="2 Aware but no direct experience" />
+        </Facet>
+        <Facet Name="How IMPORTANT atmospheric/space weather data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY atmospheric/space weather data">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="How IMPORTANT climate data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How EASY climate data">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="How IMPORTANT oceanographic data">
+          <String Value="2 Low importance (3-4)" />
+        </Facet>
+        <Facet Name="How EASY oceanographic data">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geophysical data">
+          <String Value="3 Below average importance (5-7)" />
+        </Facet>
+        <Facet Name="How EASY geophysical data">
+          <String Value="3 Rather difficult than not (5-7)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geologic data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How EASY geologic data">
+          <String Value="3 Rather difficult than not (5-7)" />
+        </Facet>
+        <Facet Name="How IMPORTANT critical zone data">
+          <String Value="5 Above average importance (9-11)" />
+        </Facet>
+        <Facet Name="How EASY critical zone data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT hydrologic data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY hydrologic data">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets in your field">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets in your field">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets span different fields">
+          <String Value="5 Above average importance (9-11)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets span different fields">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="Suite of TOOLS ADEQUATE for research and education">
+          <String Value="5 Rather adequate than inadequate (9-11)" />
+        </Facet>
+        <Facet Name="Are you accessing data other than your own">
+          <Link Name="NOAA ESRL PSD, NCDC" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues federal government repositories">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues data held by investigators">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues attribution/authorship">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="High degree of COOPERATION in sharing data among geoscientists">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="High degree COOPERATION in sharing software by cyber for geo">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="Great deal of DUPLICATION in software for geo">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="SUFFICIENT COMMUNICATION between geo and cyber">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="Sufficient END-USER KNOWLEDGE and training">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How should EarthCube balance education and research">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC will increase my PRODUCTIVITY in 5-7 years">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED RESEARCH opportunities in 5-7 years">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="EC will provide EXPANDED EDUCATIONAL TOOLS in 5-7 years">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED INTEGRATION CAPABILITIES in 5-7 years">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC should establish GUIDELINES for accessing, sharing, and disseminating data">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="How should EC balance CYBERSECURITY and ease of access">
+          <String Value="2 Moderate protection (3-4)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for ANALYSIS tools, methods, and/or models">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for VISUALIZATION tools">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC should TAKE INTO ACCOUNT commercial products or applications">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience RESEARCH">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience EDUCATION">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC is INCLUSIVE in the way it operates">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC should be GRASSROOTS, community-driven">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="NSF should play a major role in EC operations">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Balance between COMMUNITY-ELECTED and NSF-selected leaders">
+          <String Value="3 Rather community-elected than NSF-selected (5-7)" />
+        </Facet>
+        <Facet Name="No CORE group of EarthCube leaders is needed">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="I am comfortable using VIRTUAL/on-line technology">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="Periodic FACE-TO-FACE meetings are essential">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will value and reward my EarthCube efforts">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will see EarthCube as integral to my job">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="My EC efforts will be valued by COLLEAGUES">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="Motivated for EC to advance teaching">
+          <String Value="1 Low motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC for new scientific advances">
+          <String Value="4 Above average motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC to make geo accessible to public">
+          <String Value="3 Medium motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC as service to field/profession">
+          <String Value="2 Below average motivation" />
+        </Facet>
+        <Facet Name="If not involved in EC">
+          <String Value="Not involved but open to becoming involved" />
+        </Facet>
+        <Facet Name="EC will be one of TOP THREE professional commitments in next 3-5 years">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="MY PRIMARY ROLE/EXPERTISE">
+          <String Value="Atmospheric or Space Weather scientist" />
+        </Facet>
+        <Facet Name="My SECONDARY role/expertise">
+          <String Value="Hydrologist" />
+        </Facet>
+        <Facet Name="With Atmospheric and Space Weather scientists">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With Oceanographers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Geologists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Geophysicists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Hydrologists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Critical zone scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Climate scientists">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Biologists and Ecosystems scientists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Geographers">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Computer and Cyber scientists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Social scientists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Other scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Data managers">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With High performance computing experts">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Software engineers">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With User support personnel">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With K-12 educators">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Designers/developers of geoscience instrumentation">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Environmental resource managers">
+          <String Value="0 Never" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="6" Img="#6" Name="Climate scientist" Href="#">
+      <Facets>
+        <Facet Name="PRIMARY DISCIPLINE">
+          <String Value="1 Geoscience" />
+        </Facet>
+        <Facet Name="Discipline if not listed">
+          <String Value="Meteorology" />
+        </Facet>
+        <Facet Name="Years of experience">
+          <String Value="4: Over 20 years" />
+        </Facet>
+        <Facet Name="National affiliation">
+          <String Value="Non-US" />
+        </Facet>
+        <Facet Name="Institutional affiliation">
+          <String Value="Other" />
+        </Facet>
+        <Facet Name="Gender">
+          <String Value="Male" />
+        </Facet>
+        <Facet Name="FAMILIARITY with EarthCube">
+          <String Value="1 First I have heard of EC" />
+        </Facet>
+        <Facet Name="How IMPORTANT atmospheric/space weather data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY atmospheric/space weather data">
+          <String Value="6 Somewhat easy (12-13)" />
+        </Facet>
+        <Facet Name="How IMPORTANT climate data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY climate data">
+          <String Value="6 Somewhat easy (12-13)" />
+        </Facet>
+        <Facet Name="How IMPORTANT oceanographic data">
+          <String Value="7 Highly important (14-15)" />
+        </Facet>
+        <Facet Name="How EASY oceanographic data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geophysical data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY geophysical data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geologic data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How EASY geologic data">
+          <String Value="3 Rather difficult than not (5-7)" />
+        </Facet>
+        <Facet Name="How IMPORTANT critical zone data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How EASY critical zone data">
+          <String Value="3 Rather difficult than not (5-7)" />
+        </Facet>
+        <Facet Name="How IMPORTANT hydrologic data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY hydrologic data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets in your field">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets in your field">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets span different fields">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets span different fields">
+          <String Value="3 Rather difficult than not (5-7)" />
+        </Facet>
+        <Facet Name="Suite of TOOLS ADEQUATE for research and education">
+          <String Value="5 Rather adequate than inadequate (9-11)" />
+        </Facet>
+        <Facet Name="Are you using data from multiple disciplines">
+          <String Value="hydrology" />
+        </Facet>
+        <Facet Name="Are you accessing data other than your own">
+          <Link Name="yes, mainly from NCAR and similar (reanalysis) and BAS (antarctic data)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues federal government repositories">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues data held by investigators">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues attribution/authorship">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="High degree of COOPERATION in sharing data among geoscientists">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="High degree COOPERATION in sharing software by cyber for geo">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Great deal of DUPLICATION in software for geo">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="SUFFICIENT COMMUNICATION between geo and cyber">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="Sufficient END-USER KNOWLEDGE and training">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How should EarthCube balance education and research">
+          <String Value="7 Research (14-15)" />
+        </Facet>
+        <Facet Name="EC will increase my PRODUCTIVITY in 5-7 years">
+          <String Value="7 Agree (14-15)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED RESEARCH opportunities in 5-7 years">
+          <String Value="7 Agree (14-15)" />
+        </Facet>
+        <Facet Name="EC will provide EXPANDED EDUCATIONAL TOOLS in 5-7 years">
+          <String Value="7 Agree (14-15)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED INTEGRATION CAPABILITIES in 5-7 years">
+          <String Value="7 Agree (14-15)" />
+        </Facet>
+        <Facet Name="EC should establish GUIDELINES for accessing, sharing, and disseminating data">
+          <String Value="7 Agree (14-15)" />
+        </Facet>
+        <Facet Name="How should EC balance CYBERSECURITY and ease of access">
+          <String Value="3 Rather protection than ease of access (5-7)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for ANALYSIS tools, methods, and/or models">
+          <String Value="7 Agree (14-15)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for VISUALIZATION tools">
+          <String Value="7 Agree (14-15)" />
+        </Facet>
+        <Facet Name="EC should TAKE INTO ACCOUNT commercial products or applications">
+          <String Value="1 Disagree (1-2)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience RESEARCH">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience EDUCATION">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="EC is INCLUSIVE in the way it operates">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="EC should be GRASSROOTS, community-driven">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="NSF should play a major role in EC operations">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Balance between COMMUNITY-ELECTED and NSF-selected leaders">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="No CORE group of EarthCube leaders is needed">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="I am comfortable using VIRTUAL/on-line technology">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Periodic FACE-TO-FACE meetings are essential">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will value and reward my EarthCube efforts">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will see EarthCube as integral to my job">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Motivated for EC to make geo accessible to public">
+          <String Value="2 Below average motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC as service to field/profession">
+          <String Value="3 Medium motivation" />
+        </Facet>
+        <Facet Name="If not involved in EC">
+          <String Value="Not involved but open to becoming involved" />
+        </Facet>
+        <Facet Name="EC will be one of TOP THREE professional commitments in next 3-5 years">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="MY PRIMARY ROLE/EXPERTISE">
+          <String Value="Climate scientist" />
+        </Facet>
+        <Facet Name="My SECONDARY role/expertise">
+          <String Value="Atmospheric or Space Weather scientist" />
+        </Facet>
+        <Facet Name="With Atmospheric and Space Weather scientists">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Hydrologists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Critical zone scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Social scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Other scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Data managers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Designers/developers of geoscience instrumentation">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Environmental resource managers">
+          <String Value="0 Never" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="7" Img="#7" Name="Atmospheric or Space Weather scientist" Href="#">
+      <Facets>
+        <Facet Name="PRIMARY DISCIPLINE">
+          <String Value="1 Geoscience" />
+        </Facet>
+        <Facet Name="Specific area of EXPERTISE">
+          <String Value="meteorology and oceanography" />
+        </Facet>
+        <Facet Name="Years of experience">
+          <String Value="4: Over 20 years" />
+        </Facet>
+        <Facet Name="National affiliation">
+          <String Value="US" />
+        </Facet>
+        <Facet Name="Institutional affiliation">
+          <String Value="Other" />
+        </Facet>
+        <Facet Name="Gender">
+          <String Value="Male" />
+        </Facet>
+        <Facet Name="FAMILIARITY with EarthCube">
+          <String Value="1 First I have heard of EC" />
+        </Facet>
+        <Facet Name="How IMPORTANT atmospheric/space weather data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY atmospheric/space weather data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT climate data">
+          <String Value="6 Important (12-13)" />
+        </Facet>
+        <Facet Name="How EASY climate data">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="How IMPORTANT oceanographic data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY oceanographic data">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geophysical data">
+          <String Value="0 Not important (0)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geologic data">
+          <String Value="0 Not important (0)" />
+        </Facet>
+        <Facet Name="How IMPORTANT critical zone data">
+          <String Value="0 Not important (0)" />
+        </Facet>
+        <Facet Name="How IMPORTANT hydrologic data">
+          <String Value="0 Not important (0)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets in your field">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets in your field">
+          <String Value="0 Very difficult (0)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets span different fields">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets span different fields">
+          <String Value="0 Very difficult (0)" />
+        </Facet>
+        <Facet Name="Suite of TOOLS ADEQUATE for research and education">
+          <String Value="5 Rather adequate than inadequate (9-11)" />
+        </Facet>
+        <Facet Name="Are you using data from multiple disciplines">
+          <String Value="I use data for education. It's primarily meteorologic, oceanographic, and climate data." />
+        </Facet>
+        <Facet Name="Are you accessing data other than your own">
+          <Link Name="Primarily &quot;motherlode&quot; at UCAR and NOAA's NOMADS data server. There are many others, including USGODAE and a website at Columbia (IRIS?)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues federal government repositories">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues data held by investigators">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues attribution/authorship">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="High degree of COOPERATION in sharing data among geoscientists">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="High degree COOPERATION in sharing software by cyber for geo">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Great deal of DUPLICATION in software for geo">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="SUFFICIENT COMMUNICATION between geo and cyber">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="Sufficient END-USER KNOWLEDGE and training">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="How should EarthCube balance education and research">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC should establish GUIDELINES for accessing, sharing, and disseminating data">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="How should EC balance CYBERSECURITY and ease of access">
+          <String Value="2 Moderate protection (3-4)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for ANALYSIS tools, methods, and/or models">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for VISUALIZATION tools">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC should TAKE INTO ACCOUNT commercial products or applications">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience RESEARCH">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience EDUCATION">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC should be GRASSROOTS, community-driven">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="NSF should play a major role in EC operations">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="Balance between COMMUNITY-ELECTED and NSF-selected leaders">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="No CORE group of EarthCube leaders is needed">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="Periodic FACE-TO-FACE meetings are essential">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will value and reward my EarthCube efforts">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will see EarthCube as integral to my job">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="My EC efforts will be valued by COLLEAGUES">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="If not involved in EC">
+          <String Value="Not involved but open to becoming involved" />
+        </Facet>
+        <Facet Name="EC will be one of TOP THREE professional commitments in next 3-5 years">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="MY PRIMARY ROLE/EXPERTISE">
+          <String Value="Atmospheric or Space Weather scientist" />
+        </Facet>
+        <Facet Name="My SECONDARY role/expertise">
+          <String Value="Oceanographer" />
+        </Facet>
+        <Facet Name="With Atmospheric and Space Weather scientists">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With Oceanographers">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With Geologists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Geophysicists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Hydrologists">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With Critical zone scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Climate scientists">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Biologists and Ecosystems scientists">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Geographers">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Computer and Cyber scientists">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Social scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Other scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Data managers">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With High performance computing experts">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Software engineers">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With User support personnel">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With K-12 educators">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Designers/developers of geoscience instrumentation">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Environmental resource managers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Other experts">
+          <String Value="3 Monthly" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="8" Img="#8" Name="Atmospheric or Space Weather scientist" Href="#">
+      <Facets>
+        <Facet Name="PRIMARY DISCIPLINE">
+          <String Value="3 Both" />
+        </Facet>
+        <Facet Name="Specific area of EXPERTISE">
+          <String Value="Numerical modeling, data acquisition and manipulation, data interoperability." />
+        </Facet>
+        <Facet Name="Years of experience">
+          <String Value="2: 5-10 years" />
+        </Facet>
+        <Facet Name="National affiliation">
+          <String Value="Non-US" />
+        </Facet>
+        <Facet Name="Institutional affiliation">
+          <String Value="University or 4-year College" />
+        </Facet>
+        <Facet Name="Gender">
+          <String Value="Male" />
+        </Facet>
+        <Facet Name="FAMILIARITY with EarthCube">
+          <String Value="3 Visited EC site, not currently participating" />
+        </Facet>
+        <Facet Name="How IMPORTANT atmospheric/space weather data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY atmospheric/space weather data">
+          <String Value="5 Easier than average (9-11)" />
+        </Facet>
+        <Facet Name="How IMPORTANT climate data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY climate data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT oceanographic data">
+          <String Value="6 Important (12-13)" />
+        </Facet>
+        <Facet Name="How EASY oceanographic data">
+          <String Value="3 Rather difficult than not (5-7)" />
+        </Facet>
+        <Facet Name="How IMPORTANT hydrologic data">
+          <String Value="3 Below average importance (5-7)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets in your field">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets in your field">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets span different fields">
+          <String Value="6 Important (12-13)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets span different fields">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="Suite of TOOLS ADEQUATE for research and education">
+          <String Value="6 Somewhat adequate (12-13)" />
+        </Facet>
+        <Facet Name="Are you using data from multiple disciplines">
+          <String Value="Yes. Atmospheric and oceanographic data." />
+        </Facet>
+        <Facet Name="Are you accessing data other than your own">
+          <Link Name="Yes. On an operational basis through IDD, Eumetcast and FTP." />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues federal government repositories">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues attribution/authorship">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="High degree of COOPERATION in sharing data among geoscientists">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="High degree COOPERATION in sharing software by cyber for geo">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="Great deal of DUPLICATION in software for geo">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="SUFFICIENT COMMUNICATION between geo and cyber">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="Sufficient END-USER KNOWLEDGE and training">
+          <String Value="1 Disagree (1-2)" />
+        </Facet>
+        <Facet Name="How should EarthCube balance education and research">
+          <String Value="3 Rather education than research (5-7)" />
+        </Facet>
+        <Facet Name="EC will increase my PRODUCTIVITY in 5-7 years">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED RESEARCH opportunities in 5-7 years">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="EC will provide EXPANDED EDUCATIONAL TOOLS in 5-7 years">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED INTEGRATION CAPABILITIES in 5-7 years">
+          <String Value="7 Agree (14-15)" />
+        </Facet>
+        <Facet Name="EC should establish GUIDELINES for accessing, sharing, and disseminating data">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="How should EC balance CYBERSECURITY and ease of access">
+          <String Value="6 Moderate ease of access (12-13)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for ANALYSIS tools, methods, and/or models">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for VISUALIZATION tools">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC should TAKE INTO ACCOUNT commercial products or applications">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience RESEARCH">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience EDUCATION">
+          <String Value="7 Agree (14-15)" />
+        </Facet>
+        <Facet Name="EC is INCLUSIVE in the way it operates">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC should be GRASSROOTS, community-driven">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="NSF should play a major role in EC operations">
+          <String Value="3 Rather disagree than agree (5-7)" />
+        </Facet>
+        <Facet Name="Balance between COMMUNITY-ELECTED and NSF-selected leaders">
+          <String Value="3 Rather community-elected than NSF-selected (5-7)" />
+        </Facet>
+        <Facet Name="No CORE group of EarthCube leaders is needed">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="I am comfortable using VIRTUAL/on-line technology">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="Periodic FACE-TO-FACE meetings are essential">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="Motivated for EC to advance research">
+          <String Value="4 Above average motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC to advance teaching">
+          <String Value="1 Low motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC for networking opportunities">
+          <String Value="5 High motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC for new scientific advances">
+          <String Value="3 Medium motivation" />
+        </Facet>
+        <Facet Name="Motivated for EC as service to field/profession">
+          <String Value="2 Below average motivation" />
+        </Facet>
+        <Facet Name="If not involved in EC">
+          <String Value="Not involved but open to becoming involved" />
+        </Facet>
+        <Facet Name="EC will be one of TOP THREE professional commitments in next 3-5 years">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="MY PRIMARY ROLE/EXPERTISE">
+          <String Value="Atmospheric or Space Weather scientist" />
+        </Facet>
+        <Facet Name="My SECONDARY role/expertise">
+          <String Value="Computer or CI scientist" />
+        </Facet>
+        <Facet Name="With Atmospheric and Space Weather scientists">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Oceanographers">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Geologists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Geophysicists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Hydrologists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Critical zone scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Climate scientists">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Biologists and Ecosystems scientists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Geographers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Computer and Cyber scientists">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With Social scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Other scientists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Data managers">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With High performance computing experts">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Software engineers">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With User support personnel">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With K-12 educators">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Designers/developers of geoscience instrumentation">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Environmental resource managers">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Other experts">
+          <String Value="1 Annually" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="9" Img="#9" Name="K-12 educator" Href="#">
+      <Facets>
+        <Facet Name="PRIMARY DISCIPLINE">
+          <String Value="1 Geoscience" />
+        </Facet>
+        <Facet Name="Years of experience">
+          <String Value="3: 11-20 years" />
+        </Facet>
+        <Facet Name="National affiliation">
+          <String Value="US" />
+        </Facet>
+        <Facet Name="Institutional affiliation">
+          <String Value="Other" />
+        </Facet>
+        <Facet Name="Gender">
+          <String Value="Female" />
+        </Facet>
+        <Facet Name="FAMILIARITY with EarthCube">
+          <String Value="1 First I have heard of EC" />
+        </Facet>
+        <Facet Name="How IMPORTANT atmospheric/space weather data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How EASY atmospheric/space weather data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT climate data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How EASY climate data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT oceanographic data">
+          <String Value="2 Low importance (3-4)" />
+        </Facet>
+        <Facet Name="How EASY oceanographic data">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geophysical data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How EASY geophysical data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geologic data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How EASY geologic data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How IMPORTANT critical zone data">
+          <String Value="0 Not important (0)" />
+        </Facet>
+        <Facet Name="How IMPORTANT hydrologic data">
+          <String Value="0 Not important (0)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets in your field">
+          <String Value="0 Not important (0)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets span different fields">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets span different fields">
+          <String Value="0 Very difficult (0)" />
+        </Facet>
+        <Facet Name="Suite of TOOLS ADEQUATE for research and education">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Are you using data from multiple disciplines">
+          <String Value="K-12 Classroom needs of data only, not for reserach" />
+        </Facet>
+        <Facet Name="Are you accessing data other than your own">
+          <Link Name="Anywhere I can - NASA, EPA, USGS, IRIS, UNAVCO - anywhere that I can get relevant data sets for K-12 classroom activities" />
+        </Facet>
+        <Facet Name="How should EarthCube balance education and research">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC should establish GUIDELINES for accessing, sharing, and disseminating data">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="How should EC balance CYBERSECURITY and ease of access">
+          <String Value="0 Strongest protection (0)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for ANALYSIS tools, methods, and/or models">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for VISUALIZATION tools">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC should TAKE INTO ACCOUNT commercial products or applications">
+          <String Value="1 Disagree (1-2)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience EDUCATION">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC is INCLUSIVE in the way it operates">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC should be GRASSROOTS, community-driven">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="NSF should play a major role in EC operations">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="Balance between COMMUNITY-ELECTED and NSF-selected leaders">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="No CORE group of EarthCube leaders is needed">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="I am comfortable using VIRTUAL/on-line technology">
+          <String Value="5 Rather agree than disagree (9-11)" />
+        </Facet>
+        <Facet Name="Periodic FACE-TO-FACE meetings are essential">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="If not involved in EC">
+          <String Value="Not interested" />
+        </Facet>
+        <Facet Name="MY PRIMARY ROLE/EXPERTISE">
+          <String Value="K-12 educator" />
+        </Facet>
+        <Facet Name="With Atmospheric and Space Weather scientists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Oceanographers">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Geologists">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With Geophysicists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Hydrologists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Critical zone scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Climate scientists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Biologists and Ecosystems scientists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Geographers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Computer and Cyber scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Social scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Other scientists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Data managers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With High performance computing experts">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Software engineers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With User support personnel">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With K-12 educators">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With Designers/developers of geoscience instrumentation">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Environmental resource managers">
+          <String Value="0 Never" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="10" Img="#10" Name="Oceanographer" Href="#">
+      <Facets>
+        <Facet Name="PRIMARY DISCIPLINE">
+          <String Value="3 Both" />
+        </Facet>
+        <Facet Name="Specific area of EXPERTISE">
+          <String Value="Oceanography and computer UI technologies" />
+        </Facet>
+        <Facet Name="Years of experience">
+          <String Value="4: Over 20 years" />
+        </Facet>
+        <Facet Name="National affiliation">
+          <String Value="US" />
+        </Facet>
+        <Facet Name="Institutional affiliation">
+          <String Value="Other" />
+        </Facet>
+        <Facet Name="Gender">
+          <String Value="Male" />
+        </Facet>
+        <Facet Name="FAMILIARITY with EarthCube">
+          <String Value="2 Aware but no direct experience" />
+        </Facet>
+        <Facet Name="How IMPORTANT atmospheric/space weather data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY atmospheric/space weather data">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="How IMPORTANT climate data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY climate data">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="How IMPORTANT oceanographic data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY oceanographic data">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="How IMPORTANT geophysical data">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY geophysical data">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="How IMPORTANT hydrologic data">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="How EASY hydrologic data">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets in your field">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets in your field">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="How IMPORTANT multiple datasets span different fields">
+          <String Value="8 Critically important (16)" />
+        </Facet>
+        <Facet Name="How EASY multiple datasets span different fields">
+          <String Value="2 Somewhat difficult (3-4)" />
+        </Facet>
+        <Facet Name="Suite of TOOLS ADEQUATE for research and education">
+          <String Value="2 Somewhat inadequate (3-4)" />
+        </Facet>
+        <Facet Name="Are you using data from multiple disciplines">
+          <String Value="oceanography, meteorology." />
+        </Facet>
+        <Facet Name="Are you accessing data other than your own">
+          <Link Name="AVISO, NOMADS, NCEP supercomputer center, NOAA Atlantic Oceanographic and Meteorology Laboratory, US Navy." />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues federal government repositories">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues data held by investigators">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="Substantial UNRESOLVED issues attribution/authorship">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="High degree of COOPERATION in sharing data among geoscientists">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="High degree COOPERATION in sharing software by cyber for geo">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="Great deal of DUPLICATION in software for geo">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="SUFFICIENT COMMUNICATION between geo and cyber">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="Sufficient END-USER KNOWLEDGE and training">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="How should EarthCube balance education and research">
+          <String Value="6 Moderately research (12-13)" />
+        </Facet>
+        <Facet Name="EC will increase my PRODUCTIVITY in 5-7 years">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED RESEARCH opportunities in 5-7 years">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC will provide EXPANDED EDUCATIONAL TOOLS in 5-7 years">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC will provide me EXPANDED INTEGRATION CAPABILITIES in 5-7 years">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC should establish GUIDELINES for accessing, sharing, and disseminating data">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="How should EC balance CYBERSECURITY and ease of access">
+          <String Value="6 Moderate ease of access (12-13)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for ANALYSIS tools, methods, and/or models">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC should establish guidelines for VISUALIZATION tools">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="EC should TAKE INTO ACCOUNT commercial products or applications">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience RESEARCH">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC will TRANSFORM geoscience EDUCATION">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC is INCLUSIVE in the way it operates">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="EC should be GRASSROOTS, community-driven">
+          <String Value="6 Somewhat agree (12-13)" />
+        </Facet>
+        <Facet Name="NSF should play a major role in EC operations">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="Balance between COMMUNITY-ELECTED and NSF-selected leaders">
+          <String Value="2 Somewhat community-elected (3-4)" />
+        </Facet>
+        <Facet Name="No CORE group of EarthCube leaders is needed">
+          <String Value="0 Strongly disagree (0)" />
+        </Facet>
+        <Facet Name="I am comfortable using VIRTUAL/on-line technology">
+          <String Value="8 Strongly agree (16)" />
+        </Facet>
+        <Facet Name="Periodic FACE-TO-FACE meetings are essential">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will value and reward my EarthCube efforts">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="My EMPLOYER will see EarthCube as integral to my job">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="My EC efforts will be valued by COLLEAGUES">
+          <String Value="4 Midpoint (8)" />
+        </Facet>
+        <Facet Name="If not involved in EC">
+          <String Value="Not involved but open to becoming involved" />
+        </Facet>
+        <Facet Name="EC will be one of TOP THREE professional commitments in next 3-5 years">
+          <String Value="2 Somewhat disagree (3-4)" />
+        </Facet>
+        <Facet Name="MY PRIMARY ROLE/EXPERTISE">
+          <String Value="Oceanographer" />
+        </Facet>
+        <Facet Name="My SECONDARY role/expertise">
+          <String Value="Software engineer" />
+        </Facet>
+        <Facet Name="With Atmospheric and Space Weather scientists">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Oceanographers">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With Geologists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Geophysicists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Hydrologists">
+          <String Value="1 Annually" />
+        </Facet>
+        <Facet Name="With Critical zone scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Climate scientists">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Biologists and Ecosystems scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Geographers">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Computer and Cyber scientists">
+          <String Value="2 Quarterly" />
+        </Facet>
+        <Facet Name="With Social scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Other scientists">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Data managers">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With High performance computing experts">
+          <String Value="3 Monthly" />
+        </Facet>
+        <Facet Name="With Software engineers">
+          <String Value="5 Daily" />
+        </Facet>
+        <Facet Name="With User support personnel">
+          <String Value="4 Weekly" />
+        </Facet>
+        <Facet Name="With K-12 educators">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Designers/developers of geoscience instrumentation">
+          <String Value="0 Never" />
+        </Facet>
+        <Facet Name="With Environmental resource managers">
+          <String Value="2 Quarterly" />
+        </Facet>
+      </Facets>
+    </Item>
+ 
+  </Items>
+  <Extension>
+    <p:Copyright Name="Stakeholder Alignment Project, February 2014" />
+  </Extension>
+</Collection>

@@ -1,0 +1,13 @@
+C:\Users\Rene\Desktop\sdsc\survey\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Rene\Desktop\sdsc\survey\obj\Debug\attach_server.py
+C:\Users\Rene\Desktop\sdsc\survey\obj\Debug\visualstudio_py_debugger.py
+C:\Users\Rene\Desktop\sdsc\survey\obj\Debug\visualstudio_py_repl.py
+C:\Users\Rene\Desktop\sdsc\survey\obj\Debug\visualstudio_py_util.py
+C:\Users\Rene\Desktop\sdsc\survey\obj\Debug\__init__.py
+C:\Users\Rene\Desktop\sdsc\survey\obj\Debug\__main__.py
+C:\Users\Rene\Desktop\sdsc\survey\bin\AzureSetup.cfg
+C:\Users\Rene\Desktop\sdsc\survey\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\Users\Rene\Desktop\sdsc\survey\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\Users\Rene\Desktop\sdsc\survey\bin\wfastcgi.py
+C:\Users\Rene\Desktop\sdsc\survey\obj\Debug\web.config
+C:\Users\Rene\Desktop\sdsc\survey\obj\Debug\web.debug.config

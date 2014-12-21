@@ -1,0 +1,7 @@
+C:\Users\Rene\Desktop\sdsc\survey\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Rene\Desktop\sdsc\survey\bin\AzureSetup.cfg
+C:\Users\Rene\Desktop\sdsc\survey\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\Users\Rene\Desktop\sdsc\survey\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\Users\Rene\Desktop\sdsc\survey\bin\wfastcgi.py
+C:\Users\Rene\Desktop\sdsc\survey\obj\Release\web.config
+C:\Users\Rene\Desktop\sdsc\survey\obj\Release\web.debug.config

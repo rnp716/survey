@@ -1,0 +1,13 @@
+June 04 2014, V?.??.?:
+
+ * Added timeline view
+ * Added support for maps using OpenStreetMap as well as Google maps.
+ * Added geometry display to Mapview
+ * Added support for multiple areas plotted on a map
+ * Added grouping items in mapview using colored pins
+ * Added the option to add WMS overlay to the map.
+ * Added filtering using a custom date range
+ * Added batch file to make pivotviewer.js on Windows
+ * Added new examples
+ * Fixed bug in sorting
+ * Improved handling of datetime data
